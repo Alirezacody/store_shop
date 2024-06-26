@@ -1,0 +1,137 @@
+/* Background styles */
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray;
+}
+
+* {
+  color: black;
+  font-size: 1.1rem;
+}
+
+/* Glassmorphism card effect */
+.card {
+  backdrop-filter: blur(7px) saturate(200%);
+  -webkit-backdrop-filter: blur(7px) saturate(200%);
+  border-radius: 12px;
+  margin: 120px auto !important;
+  text-align: center;
+  width: 400px;
+  height: 470px;
+  padding-top: 5%;
+  border: 2px solid gray;
+  box-shadow: inset 0 0 10px black;
+  line-height: 1.5em !important;
+}
+
+.disabled {
+  display: none !important;
+}
+
+.shop {
+  font-family: cursive !important;
+}
+
+input {
+  margin: 40px 0;
+  border-radius: 10px;
+  border: 0;
+  border-bottom: 2px solid rgb(1, 1, 1);
+  background-color: transparent;
+  outline: 0;
+}
+
+::placeholder {
+  color: rgb(195, 192, 192);
+}
+
+.btn {
+  color: black !important;
+  margin: 10px 0;
+  padding: 4px 50px;
+  background-color: black;
+  color: white !important;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.border-red {
+  border: 2px solid red !important;
+}
+
+.erroruser {
+  color: red;
+}
+
+.errorpass {
+  color: red !important;
+}
+
+.errorlength {
+  color: red !important;
+}
+
+.dis {
+  display: none;
+}
+
+.errorlength2 {
+  color: red;
+}
+
+.color {
+  color: red;
+}
+.background {
+  background-color: red;
+}
+
+.wrong {
+  background: #fff;
+  border: 2px solid rgb(255, 0, 0);
+  box-shadow: inset 0 0 10px rgb(245, 3, 3);
+  text-align: center;
+  line-height: 1.4rem;
+  width: 400px;
+  height: fit-content;
+  margin: 120px auto !important;
+}
+
+.link___ {
+  text-decoration: underline;
+  color: blue;
+}
+
+.link___:hover {
+  text-decoration: none !important;
+}
+
+.link___2 {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.link___2:hover {
+  text-decoration: none !important;
+}
+
+.SINGIN_ {
+  width: 350px;
+  height: 350px;
+  margin: 120px auto !important;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px black;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.SINGIN_ button {
+  background-color: #000000;
+  color: white;
+  font-family: cursive;
+  cursor: pointer;
+  padding: 5px 50px;
+}

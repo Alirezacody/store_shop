@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="card p-lg-3" enter;>
+      <div class="card-header bg-transparent border-0 pb-0 mb-3">
+        <h2 class="h4">LOGIN in to our <span class="shop"><em>SHOP</em></span></h2>
+        <span class="text-muted"
+          >Login here using your username and password</span
+        >
+      </div>
+      <div class="card-body">
+        <form action="page2.html">
+          <div class="mb-4">
+            <label class="mb-2" for="exampleInputEmailCard1"></label>
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1"
+                >
+                <i class="fa fa-address-book-o"></i>
+                  <path
+                    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                  ></path>
+                  <path
+                    d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                  ></path></svg></span
+              ><input
+                type="text"
+                class="form-control username"
+                placeholder="username"
+                id="exampleInputEmailCard1"
+                aria-describedby="exampleInputEmailCard1"
+                required=""
+              />
+            </div>
+          </div>
+          <div class="mb-4">
+            <label class="mb-2" for="exampleInputPasswordCard1"
+            ></label
+            >
+            <p class="errorpass dis">password is wrong</p>
+            <p class="errorlength2 dis">password should be 6 to 12 words</p>
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon2"
+                ><svg
+                style="width:20px;"
+                  class="icon icon-xs"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                    clip-rule="evenodd"
+                  ></path></svg></span
+              ><input
+                type="password"
+                class="form-control password"
+                placeholder="Password"
+                id="exampleInputPasswordCard1"
+                aria-describedby="exampleInputPasswordCard1"
+                required=""
+              />
+            </div>
+          </div>
+          <div
+            class="d-block d-sm-flex justify-content-between align-items-center mb-4"
+          >
+          </div>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn signin">LOGIN</button>
+            <p href=""><a href="" class="create-profile">create a new account</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="wrong disabled">
+        <p>username or passord is wrong <a class="link___" href="index.html">please tryagin</a></p>
+        <p> Do you not have an account? <span class="link___2">create new account</span></p>
+    </div>
+
+
+    <fieldset class="SINGIN_ disabled">
+        <legend style="font-family: cursive;">Register</legend>
+        <form id="registrationForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+            <label for="pin">PIN:</label>
+            <input type="password" id="pin" name="pin" required><br><br>
+            <button type="submit" id="btn-register">Register</button>
+        </form>
+    </fieldset>
+    
+    
+    
+      <script src="app.js"></script>
+  </body>
+</html>
