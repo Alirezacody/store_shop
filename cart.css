@@ -149,3 +149,34 @@ body {
   color: #ffffff;
   cursor:pointer;
 }
+
+/* Media Query برای تبلت */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 5px;
+  }
+  .tabel_ {
+    width: 80%;
+  }
+  .display-cartshop {
+    width: 40%;
+    margin-left: 50px;
+  }
+  .img_ {
+    display: none;
+  }
+}
+
+/* Media Query برای دسکتاپ */
+@media only screen and (min-width: 1025px) {
+  .container {
+    padding: 20px;
+  }
+  .tabel_ {
+    width: 60%;
+  }
+  .display-cartshop {
+    width: 20%;
+    margin-left: 200px;
+  }
+}
