@@ -41,6 +41,7 @@ body {
   border: 0;
   outline: 0;
   font-size: 1.01rem;
+  margin:3px !important;
 }
 
 .menu {

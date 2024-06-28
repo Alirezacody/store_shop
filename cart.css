@@ -9,9 +9,11 @@ body {
 
 .container {
   background: white;
-  height: fit-content;
+  height: 700px;
   font-family: cursive;
   padding: 10px;
+  box-sizing: border-box;
+  height:fit-content;
 }
 
 .tabel_ {
@@ -39,6 +41,7 @@ body {
 
 #div-flexer {
   display: flex;
+  /* flex-direction:; */
   width: 100%;
 }
 
@@ -51,6 +54,7 @@ body {
 
 .display-products {
   display: flex;
+  /* justify-content: center; */
   /* background-color: lightgray;
     width: 60%;
     padding:10px;
@@ -151,29 +155,91 @@ body {
 }
 
 /* Media Query برای تبلت */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 199px) and (max-width: 970px) {
   .container {
-    padding: 5px;
+    padding: 0px;
+    height: fit-content;
+    width:fit-content;
+  }
+  body {
+    padding: 0px;
+    background-color: gray;
   }
   .tabel_ {
-    width: 80%;
+    width: 100%;
   }
   .display-cartshop {
-    width: 40%;
+    width: 300px;
     margin-left: 50px;
+    margin:40px auto !important;
   }
   .img_ {
     display: none;
   }
+  #div-flexer {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+  }
+  
+  .tabel_  {
+    display: flex;
+  }
+
+  .all {
+    background-color: lightgray;
+    width: 100%;
+    padding: 0px;
+  }
+  .price {
+    margin-left: 10px;
+  }
+  
+  .number {
+    margin-left: 10px;
+  }
+  
+  .total {
+    margin-left: 10px;
+  } 
+
+  .title_ {
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .price_ {
+    margin: 80px 0 0 50px;
+  }
+  
+  .number_ {
+    width: 40px;
+    margin: 90px 0 0 50px;
+  }
+  
+  .number_ input {
+    width: 100%;
+    outline: 0;
+    border: 0;
+  }
+  
+  .total_ {
+    margin: 80px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Media Query برای دسکتاپ */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 971px) and (max-wigth:1025px) {
   .container {
-    padding: 20px;
+    padding: 0px;
   }
   .tabel_ {
-    width: 60%;
+    width: 100% !important;
   }
   .display-cartshop {
     width: 20%;

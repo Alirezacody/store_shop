@@ -26,33 +26,6 @@ let accounts = [
   },
 ];
 
-let accounts2 = [
-  {
-    owner: 'Asghar Farhadi',
-    interestRate: 1.2, // %
-    pin: '1111',
-  },
-  {
-    owner: 'Jessica Davis',
-    interestRate: 1.5,
-    pin: '2222',
-  },
-  {
-    owner: 'Steven Thomas Williams',
-    interestRate: 0.7,
-    pin: '3333',
-  },
-  {
-    owner: 'Sarah Smith',
-    interestRate: 1,
-    pin: '4444',
-  },
-  {
-    owner: 'Alireza Nabikhani',
-    interestRate: 1.8,
-    pin: '1234',
-  },
-];
 
 const saveAcc = function(){
   return localStorage.setItem('user' , JSON.stringify(accounts));
